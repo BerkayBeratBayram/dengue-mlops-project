@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# MLflow
+mlruns/
+mlflow.db
+
+# Artifacts / Models (istersen kalsın ama genelde repo'da tutulmaz)
+artifacts/
+*.pkl
+
+# OS / IDE
+.DS_Store
+.vscode/
