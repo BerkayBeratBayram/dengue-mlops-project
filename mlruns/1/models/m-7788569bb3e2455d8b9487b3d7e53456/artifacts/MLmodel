@@ -1,0 +1,22 @@
+artifact_path: "file:C:/Users/MONSTER/Desktop/YILBA\u015EI PROJEM - Kopya/mlruns/1/models/m-7788569bb3e2455d8b9487b3d7e53456/artifacts"
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.14.0
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.2
+mlflow_version: 3.7.0
+model_id: m-7788569bb3e2455d8b9487b3d7e53456
+model_size_bytes: 2451700
+model_uuid: m-7788569bb3e2455d8b9487b3d7e53456
+prompts: null
+run_id: fb07e14e9b2d49da8dc223a38ca83f75
+utc_time_created: '2025-12-16 12:16:55.982551'
