@@ -38,17 +38,3 @@ Bu repo benim üstünde çalıştığım dengue (haftalık vaka sayısı) tahmin
 - Test verisi için aynı pipeline'ı uyguladım; lag oluştururken geçmiş haftaları şehir bazında kullandım.
 - Tahminleri `clip(0)` ile negatiften arındırıp CSV olarak kaydettim.
 
-## Uygulama notları — kısa ipuçları
-- Lag/rolling özelliklerini şehir bazında oluşturun; aksi halde veri sızıntısı olur.
-- CV stratejisi zaman bağımlılığını bozmayacak şekilde olmalı; rastgele `KFold` yanıltıcı sonuçlar verir.
-- Eksik veri doldururken hedef bilgisini (label) kullanmayın.
-
-## Nasıl çalıştırılır (kısa)
-```powershell
-python -m venv venv
-venv\Scripts\Activate.ps1
-pip install -r requirements.txt
-jupyter lab
-```
-
-İsterseniz bu içeriği doğrudan `README.md` ile değiştiririm veya dosyayı sizin için Git ile commit edip push ederim.
